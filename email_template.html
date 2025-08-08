@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Compra y Venta de Metales</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        /* Contenedor principal */
+        .container {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        /* Encabezado */
+        .header {
+            background-color: #1a3c6e;
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            border-bottom: 5px solid #c0a060; /* Color dorado para metales */
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        /* Contenido */
+        .content {
+            padding: 30px;
+        }
+        
+        /* Saludo */
+        .saludo {
+            font-weight: bold;
+            font-size: 18px;
+            color: #1a3c6e;
+            margin-bottom: 20px;
+        }
+        
+        /* Párrafos */
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        /* Sección de servicios */
+        .servicios {
+            background-color: #f5f7fa;
+            border-left: 4px solid #1a3c6e;
+            padding: 15px 20px;
+            margin: 25px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .servicios h3 {
+            margin-top: 0;
+            color: #1a3c6e;
+            font-size: 18px;
+        }
+        
+        .servicios ul {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 0;
+        }
+        
+        .servicios li {
+            padding: 8px 0 8px 25px;
+            position: relative;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .servicios li:last-child {
+            border-bottom: none;
+        }
+        
+        .servicios li:before {
+            content: "✓";
+            color: #c0a060;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        /* Contacto */
+        .contacto {
+            text-align: center;
+            background-color: #f0f4f8;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 25px 0;
+        }
+        
+        .contacto a {
+            color: #1a3c6e;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Firma */
+        .firma {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .firma .empresa {
+            font-weight: bold;
+            color: #1a3c6e;
+            font-style: normal;
+        }
+        
+        .firma .slogan {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
+        
+        /* Pie de página */
+        .footer {
+            background-color: #1a3c6e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+        }
+        
+        /* Responsive */
+        @media only screen and (max-width: 600px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Servicios Profesionales de Metales</h1>
+        </div>
+        
+        <div class="content">
+            <p class="saludo">Estimado/a {nombre},</p>
+            
+            <p>Esperamos que este mensaje le encuentre bien.</p>
+            
+            <p>Nos complace presentarle nuestros servicios profesionales de compra y venta de metales, 
+            especializados en ofrecer soluciones integrales para sus necesidades comerciales e industriales.</p>
+            
+            <div class="servicios">
+                <h3>Nuestros servicios incluyen:</h3>
+                <ul>
+                    <li>Compra y venta de metales preciosos y no preciosos</li>
+                    <li>Evaluación profesional de materiales</li>
+                    <li>Servicios de transporte y logística</li>
+                    <li>Asesoría técnica especializada</li>
+                    <li>Transacciones seguras y confidenciales</li>
+                </ul>
+            </div>
+            
+            <p>Para obtener información detallada sobre nuestros servicios, tarifas y condiciones, 
+            le invitamos a contactarnos directamente a través de nuestro correo corporativo:</p>
+            
+            <div class="contacto">
+                <a href="mailto:correo@empresa.com">correo@empresa.com</a>
+            </div>
+            
+            <p>Nuestro equipo de especialistas estará encantado de atenderle y brindarle 
+            una propuesta personalizada que se ajuste a sus requerimientos específicos.</p>
+            
+            <p>Agradecemos su interés y quedamos a su disposición para cualquier consulta adicional.</p>
+            
+            <div class="firma">
+                <p>Atentamente,</p>
+                <p class="empresa">Robot de Compra y Venta de Metales</p>
+                <p class="slogan">Sistema Automatizado de Comunicación Corporativa</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            &copy; 2023 Servicios de Metales. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>

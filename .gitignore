@@ -1,0 +1,27 @@
+# Archivos de configuración con credenciales
+config.env
+.env
+*.env
+
+# Archivos de Excel
+*.xlsx
+*.xls
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log 
