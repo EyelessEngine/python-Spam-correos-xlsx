@@ -1,7 +1,8 @@
 # Sistema de Envío de Correos para Servicios de Metales
 
 ## Descripción
-Este proyecto es un sistema automatizado para enviar correos electrónicos masivos a partir de datos almacenados en un archivo Excel. Está diseñado específicamente para una empresa dedicada a la compra y venta de metales que desea realizar campañas de marketing por correo electrónico.
+Este proyecto es un sistema automatizado para enviar correos electrónicos masivos a partir de datos almacenados en un archivo Excel. Está diseñado para facilitar campañas de marketing,
+notificaciones o comunicaciones empresariales de forma personalizada y eficiente.
 
 ## Características
 - Envío de correos electrónicos personalizados a múltiples destinatarios
