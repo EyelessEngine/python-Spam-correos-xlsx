@@ -1,5 +1,4 @@
-# Sistema de Envío de Correos para Servicios de Metales
-
+# Sistema de Envío de Correos
 ## Descripción
 Este proyecto es un sistema automatizado para enviar correos electrónicos masivos a partir de datos almacenados en un archivo Excel. Está diseñado para facilitar campañas de marketing,
 notificaciones o comunicaciones empresariales de forma personalizada y eficiente.
