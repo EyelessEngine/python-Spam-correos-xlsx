@@ -98,3 +98,5 @@ Si encuentras problemas al enviar correos, verifica:
 - `verificar_excel.py`: Verifica la estructura del archivo Excel
 - `crear_excel_ejemplo.py`: Crea un archivo Excel de ejemplo
 - `config.env`: Archivo de configuración con credenciales
+
+## By EyelessEngine
